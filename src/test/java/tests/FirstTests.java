@@ -28,6 +28,7 @@ public class FirstTests extends TestBase {
     }
 
     @Test
+    @Tag("watchTest")
     @DisplayName("Кнопка 'Стать клиентом' кликабельна")
     public void buttonClientWatchTest() {
         step("Открыть страницу", () -> {
@@ -39,6 +40,7 @@ public class FirstTests extends TestBase {
     }
 
     @Test
+    @Tag("watchTest")
     @DisplayName("Название кнопки 'Стать поставщиком' соответствует требованиям")
     public void buttonProducerWatchTest() {
         step("Открыть страницу", () -> {
@@ -50,6 +52,7 @@ public class FirstTests extends TestBase {
     }
 
     @Test
+    @Tag("watchTest")
     @DisplayName("Название кнопки 'Контакты' соответствует требованиям")
     public void buttonContactsWatchTest() {
         step("Открыть страницу", () -> {
@@ -61,6 +64,7 @@ public class FirstTests extends TestBase {
     }
 
     @Test
+    @Tag("watchTest")
     @DisplayName("Название кнопки 'Стать клиентом' соответствует требованиям")
     public void buttonJoinWatchTest() {
         step("Открыть страницу", () -> {
