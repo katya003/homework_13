@@ -1,16 +1,19 @@
 # Тесты для сайта uptrade.ru 
 
+<img src="images/company.png" width="900">
+
 ## Содержание
 
 * <a href="#tests">Что проверяют тесты?</a>
 * <a href="#jenkins">Jenkins</a>
 * <a href="#allure">Отчет в Allure</a>
 * <a href="#telegramBot">Уведомления в Telegram bot</a>
+* <a href="#video">Видео прохождения тестов</a>
 
 ---
 
 <a id="tests"></a>
-## <a name="Что делают тесты?">**Что проверяют тесты?**</a>
+## <a name="Что проверяют тесты?">**Что проверяют тесты?**</a>
 
 5 тестов на проверки верхнеуровнего функционала [сайта](https://uptrade.ru/), вакансия публиковалась в [Telegram](https://t.me/qa_jobs/227137). Тесты проверяют кликабельность кнопки и соответствие названий основных кнопок требованиям.
 
@@ -51,4 +54,13 @@
 Для быстрой визуализации отчетности, после выполнения тестов, результат отчета дублируется в Telegram бот:
 <p align="center">
     <img src="images/Telegram_bot.png">
+</p>
+
+---
+
+<a id="video"></a>
+## <a name="Видео прохождения тестов">**Видео прохождения тестов**</a>
+
+<p align="center">
+<img title="Selenoid Video" src="images/video/uptrade.gif" width="550" height="350"  alt="video">   
 </p>
